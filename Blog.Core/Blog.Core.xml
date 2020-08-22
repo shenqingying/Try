@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.Core</name>
+    </assembly>
+    <members>
+        <member name="M:Blog.Core.Controllers.BlogController.Get(System.Int32,System.Int32)">
+            <summary>
+            SUM接口
+            </summary>
+            <param name="i"></param>
+            <param name="j"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.Core</name>
+    </assembly>
+    <members>
+        <member name="M:Blog.Core.Controllers.BlogController.Get(System.Int32)">
+            <summary>
+            根据id获取数据
+            </summary>
+            <param name="id">参数id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Controllers.WeatherForecastController.Get">
+            <summary>
+            获取接口数据
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

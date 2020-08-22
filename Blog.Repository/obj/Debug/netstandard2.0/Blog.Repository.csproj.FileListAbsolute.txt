@@ -1,0 +1,15 @@
+E:\Blog\Blog.Core\Blog.Repository\bin\Debug\netstandard2.0\Blog.Repository.deps.json
+E:\Blog\Blog.Core\Blog.Repository\bin\Debug\netstandard2.0\Blog.Repository.dll
+E:\Blog\Blog.Core\Blog.Repository\bin\Debug\netstandard2.0\Blog.Repository.pdb
+E:\Blog\Blog.Core\Blog.Repository\bin\Debug\netstandard2.0\Blog.IRepository.dll
+E:\Blog\Blog.Core\Blog.Repository\bin\Debug\netstandard2.0\Blog.Model.dll
+E:\Blog\Blog.Core\Blog.Repository\bin\Debug\netstandard2.0\Blog.IRepository.pdb
+E:\Blog\Blog.Core\Blog.Repository\bin\Debug\netstandard2.0\Blog.Model.pdb
+E:\Blog\Blog.Core\Blog.Repository\bin\Debug\netstandard2.0\Blog.Model.xml
+E:\Blog\Blog.Core\Blog.Repository\obj\Debug\netstandard2.0\Blog.Repository.csprojAssemblyReference.cache
+E:\Blog\Blog.Core\Blog.Repository\obj\Debug\netstandard2.0\Blog.Repository.AssemblyInfoInputs.cache
+E:\Blog\Blog.Core\Blog.Repository\obj\Debug\netstandard2.0\Blog.Repository.AssemblyInfo.cs
+E:\Blog\Blog.Core\Blog.Repository\obj\Debug\netstandard2.0\Blog.Repository.csproj.CoreCompileInputs.cache
+E:\Blog\Blog.Core\Blog.Repository\obj\Debug\netstandard2.0\Blog.Repository.csproj.CopyComplete
+E:\Blog\Blog.Core\Blog.Repository\obj\Debug\netstandard2.0\Blog.Repository.dll
+E:\Blog\Blog.Core\Blog.Repository\obj\Debug\netstandard2.0\Blog.Repository.pdb

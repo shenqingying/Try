@@ -1,0 +1,26 @@
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.IServices.deps.json
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.IServices.dll
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.IServices.pdb
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.csprojAssemblyReference.cache
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.AssemblyInfoInputs.cache
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.AssemblyInfo.cs
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.csproj.CoreCompileInputs.cache
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.dll
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.pdb
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.Model.dll
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.Model.pdb
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.csproj.CopyComplete
+E:\新建文件夹 (2)\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.Model.xml
+E:\Blog\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.IServices.deps.json
+E:\Blog\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.IServices.dll
+E:\Blog\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.IServices.pdb
+E:\Blog\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.Model.dll
+E:\Blog\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.Model.pdb
+E:\Blog\Blog.Core\Blog.IServices\bin\Debug\netstandard2.0\Blog.Model.xml
+E:\Blog\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.csprojAssemblyReference.cache
+E:\Blog\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.AssemblyInfoInputs.cache
+E:\Blog\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.AssemblyInfo.cs
+E:\Blog\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.csproj.CoreCompileInputs.cache
+E:\Blog\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.csproj.CopyComplete
+E:\Blog\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.dll
+E:\Blog\Blog.Core\Blog.IServices\obj\Debug\netstandard2.0\Blog.IServices.pdb

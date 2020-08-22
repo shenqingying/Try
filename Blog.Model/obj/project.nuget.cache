@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lMn5AGHqOt164TuPs/WG5thz2nRyWDmEAPAAhIktSioXalPrKVUY6e5meCoHR7UIoiTLgEelukJvMVz2e1fEag==",
+  "success": true,
+  "projectFilePath": "E:\\Blog\\Blog.Core\\Blog.Model\\Blog.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
