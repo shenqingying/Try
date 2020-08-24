@@ -30,12 +30,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Blog\\Blog.Core\\Blog.IRepository\\Blog.IRepository.csproj": {
-                "projectPath": "E:\\Blog\\Blog.Core\\Blog.IRepository\\Blog.IRepository.csproj"
-              },
-              "E:\\Blog\\Blog.Core\\Blog.IServices\\Blog.IServices.csproj": {
-                "projectPath": "E:\\Blog\\Blog.Core\\Blog.IServices\\Blog.IServices.csproj"
-              },
               "E:\\Blog\\Blog.Core\\Blog.Repository\\Blog.Repository.csproj": {
                 "projectPath": "E:\\Blog\\Blog.Core\\Blog.Repository\\Blog.Repository.csproj"
               },

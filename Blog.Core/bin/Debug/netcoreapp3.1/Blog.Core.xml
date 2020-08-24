@@ -4,6 +4,13 @@
         <name>Blog.Core</name>
     </assembly>
     <members>
+        <member name="M:Blog.Core.Controllers.BlogController.#ctor(Blog.IServices.IAdvertisementServices,Microsoft.Extensions.Logging.ILogger{Blog.Core.Controllers.BlogController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="blogArticleServices"></param>
+            <param name="logger"></param>
+        </member>
         <member name="M:Blog.Core.Controllers.BlogController.Get(System.Int32)">
             <summary>
             根据id获取数据

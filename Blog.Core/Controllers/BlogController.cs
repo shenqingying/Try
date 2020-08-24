@@ -4,6 +4,7 @@ using Blog.IServices;
 using Blog.Model;
 using Blog.Services.Blog.Core.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -14,6 +15,23 @@ namespace Blog.Core.Controllers
     [ApiController]
     public class BlogController : ControllerBase
     {
+
+        readonly IAdvertisementServices _advertisementServices;
+        private readonly ILogger<BlogController> _logger;
+
+
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="blogArticleServices"></param>
+        /// <param name="logger"></param>
+        public BlogController(IAdvertisementServices blogArticleServices, ILogger<BlogController> logger)
+        {
+            _advertisementServices = blogArticleServices;
+            _logger = logger;
+        }
+
+
         // GET: api/<BlogController>
         /// <summary>
         /// 根据id获取数据
@@ -23,9 +41,9 @@ namespace Blog.Core.Controllers
         [HttpGet]
         public async Task<List<Advertisement>> Get(int id)
         {
-            IAdvertisementServices advertisementServices = new AdvertisementServices();
+          //  IAdvertisementServices advertisementServices = new AdvertisementServices();
 
-            return await advertisementServices.Query(d => d.Id == id);
+            return await _advertisementServices.Query(d => d.Id == id);
         }
     }
 }

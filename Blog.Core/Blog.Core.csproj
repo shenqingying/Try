@@ -27,8 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Blog.IRepository\Blog.IRepository.csproj" />
-    <ProjectReference Include="..\Blog.IServices\Blog.IServices.csproj" />
     <ProjectReference Include="..\Blog.Repository\Blog.Repository.csproj" />
     <ProjectReference Include="..\Blog.Services\Blog.Services.csproj" />
   </ItemGroup>

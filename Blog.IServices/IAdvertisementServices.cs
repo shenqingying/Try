@@ -12,9 +12,5 @@ namespace Blog.IServices
         int SUM(int i, int j);
 
         int Test();
-        //int Add(Advertisement model);
-        //bool Delete(Advertisement model);
-        //bool Update(Advertisement model);
-        //List<Advertisement> Query(Expression<Func<Advertisement, bool>> wherExpression);
     }
 }

@@ -6787,8 +6787,6 @@
     ".NETCoreApp,Version=v3.1": [
       "Autofac.Extensions.DependencyInjection >= 6.0.0",
       "Autofac.Extras.DynamicProxy >= 5.0.0",
-      "Blog.IRepository >= 1.0.0",
-      "Blog.IServices >= 1.0.0",
       "Blog.Repository >= 1.0.0",
       "Blog.Services >= 1.0.0",
       "Microsoft.Extensions.PlatformAbstractions >= 1.1.0",
@@ -6825,12 +6823,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Blog\\Blog.Core\\Blog.IRepository\\Blog.IRepository.csproj": {
-              "projectPath": "E:\\Blog\\Blog.Core\\Blog.IRepository\\Blog.IRepository.csproj"
-            },
-            "E:\\Blog\\Blog.Core\\Blog.IServices\\Blog.IServices.csproj": {
-              "projectPath": "E:\\Blog\\Blog.Core\\Blog.IServices\\Blog.IServices.csproj"
-            },
             "E:\\Blog\\Blog.Core\\Blog.Repository\\Blog.Repository.csproj": {
               "projectPath": "E:\\Blog\\Blog.Core\\Blog.Repository\\Blog.Repository.csproj"
             },

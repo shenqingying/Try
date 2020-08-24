@@ -17,3 +17,4 @@ E:\Blog\Blog.Core\Blog.Model\obj\Debug\netstandard2.0\Blog.Model.AssemblyInfo.cs
 E:\Blog\Blog.Core\Blog.Model\obj\Debug\netstandard2.0\Blog.Model.csproj.CoreCompileInputs.cache
 E:\Blog\Blog.Core\Blog.Model\obj\Debug\netstandard2.0\Blog.Model.dll
 E:\Blog\Blog.Core\Blog.Model\obj\Debug\netstandard2.0\Blog.Model.pdb
+E:\Blog\Blog.Core\Blog.Model\obj\Debug\netstandard2.0\Blog.Model.csprojAssemblyReference.cache

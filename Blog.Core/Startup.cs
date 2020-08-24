@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Reflection;
 using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Autofac.Extras.DynamicProxy;
 using Blog.IServices;
 using Blog.Repository;
@@ -38,6 +39,7 @@ namespace Blog.Core
 
             services.AddSwaggerGen(c =>
             {
+                //Swagger创建的文档包含一个唯一标识NAME和全局元数据
                 c.SwaggerDoc("V1", new OpenApiInfo
                 {
                     // {ApiName} 定义成全局变量，方便修改
@@ -67,18 +69,26 @@ namespace Blog.Core
 
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+           var basePath = PlatformServices.Default.Application.ApplicationBasePath;
 
-            //直接注册某一个接口和类
-            //左边是实现类，右边的As是接口
-            builder.RegisterType<AdvertisementServices>().As<IAdvertisementServices>();
 
             //注册要通过反射创建的组件
 
             var servicesDllFile = Path.Combine(basePath, "Blog.Services.dll");
             var assemblysServices = Assembly.LoadFrom(servicesDllFile);
 
+
+            var repositoryDllFile = Path.Combine(basePath, "Blog.Repository.dll");
+            var assemblysrepository = Assembly.LoadFrom(servicesDllFile);
+
+            // 获取 Service.dll 程序集服务，并注册
+
             builder.RegisterAssemblyTypes(assemblysServices)
+                .AsImplementedInterfaces()
+                .InstancePerLifetimeScope()
+                .EnableClassInterceptors();
+
+            builder.RegisterAssemblyTypes(assemblysrepository)
                 .AsImplementedInterfaces()
                 .InstancePerLifetimeScope()
                 .EnableClassInterceptors();
