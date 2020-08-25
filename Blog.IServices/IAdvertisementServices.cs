@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Blog.Model;
-using System.Linq.Expressions;
+﻿using Blog.Model;
 using Blog.IServices.BASE;
 
 namespace Blog.IServices

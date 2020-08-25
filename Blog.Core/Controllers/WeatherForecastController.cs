@@ -17,12 +17,13 @@ namespace Blog.Core.Controllers
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
-        IAdvertisementServices advertisementServices = new AdvertisementServices();
+  
         private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        private readonly IAdvertisementServices _advertisementServices;
+        public WeatherForecastController(IAdvertisementServices advertisementServices,ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+            _advertisementServices = advertisementServices;
         }
         /// <summary>
         /// 获取接口数据
@@ -31,7 +32,7 @@ namespace Blog.Core.Controllers
         [HttpGet]
         public string[] Get()
         {
-            var ads = advertisementServices.Test();
+            var ads = _advertisementServices.Test();
             return Summaries;
         }
         //[HttpGet]

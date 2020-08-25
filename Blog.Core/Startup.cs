@@ -4,6 +4,7 @@ using System.Reflection;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Autofac.Extras.DynamicProxy;
+using Blog.Core.AOP;
 using Blog.IServices;
 using Blog.Repository;
 using Blog.Services.Blog.Core.Services;
@@ -69,8 +70,14 @@ namespace Blog.Core
 
         public void ConfigureContainer(ContainerBuilder builder)
         {
+            //获得当前程序路径
            var basePath = PlatformServices.Default.Application.ApplicationBasePath;
 
+
+            //在AutoFac中注册服务
+           builder.RegisterType<AdvertisementServices>().As<IAdvertisementServices>();
+            //注册拦截器服务
+           builder.RegisterType<BlogLogAop>();//可以直接替换其他拦截器！一定要把拦截器进行注册
 
             //注册要通过反射创建的组件
 
@@ -79,14 +86,18 @@ namespace Blog.Core
 
 
             var repositoryDllFile = Path.Combine(basePath, "Blog.Repository.dll");
-            var assemblysrepository = Assembly.LoadFrom(servicesDllFile);
+            var assemblysrepository = Assembly.LoadFrom(repositoryDllFile);
+
+           
+
 
             // 获取 Service.dll 程序集服务，并注册
 
             builder.RegisterAssemblyTypes(assemblysServices)
                 .AsImplementedInterfaces()
-                .InstancePerLifetimeScope()
-                .EnableClassInterceptors();
+                .InstancePerLifetimeScope()//同一个Lifetime生成的对象是同一个实例；AutoFac生命周期
+                .EnableInterfaceInterceptors()//启用AOP拦截
+                .InterceptedBy(typeof(BlogLogAop));//可以放一个AOP拦截器集合
 
             builder.RegisterAssemblyTypes(assemblysrepository)
                 .AsImplementedInterfaces()
